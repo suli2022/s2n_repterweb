@@ -1,0 +1,20 @@
+
+<h3>Járatok</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Hova</th>
+            <th>Indulás</th>
+            <th>Terminál</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let jarat of jaratok">
+            <td>{{jarat.id}}</td>
+            <td>{{jarat.hova}}</td>
+            <td>{{jarat.indulas}}</td>
+            <td>{{jarat.terminal}}</td>
+        </tr>
+    </tbody>
+</table>
